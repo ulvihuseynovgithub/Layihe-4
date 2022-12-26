@@ -1,0 +1,37 @@
+.movie-item {
+    padding: 20px;
+    background-color: #3d5ba7;
+    display: flex;
+    transition: transform 0.2s;
+}
+
+.movie-item:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.movie-item__poster {
+    height: 150px;
+    margin-right: 21px;
+}
+
+.movie-item__title {
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 14px;
+}
+
+.movie-item__add-button {
+    border: none;
+    background-color: #496DDB;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+}
+
+.movie-item__add-button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+}
